@@ -1,0 +1,686 @@
+{
+  "condition": {
+    "00lzn_air_40": {
+      "sheet": "scan_small_p1k",
+      "key": "0",
+      "symbol": "GREATER",
+      "value": "400"
+    },
+    "00lzn_count_gravel": {
+      "sheet": "scan_large_p1k",
+      "key": "13",
+      "symbol": "GREATER",
+      "value": "6"
+    },
+    "00lzn_count_roof": {
+      "sheet": "scan_large",
+      "key": "53",
+      "symbol": "GREATER",
+      "value": "60"
+    },
+    "00lzn_count_vitre": {
+      "sheet": "scan_large",
+      "key": "102",
+      "symbol": "GREATER",
+      "value": "20"
+    },
+    "00lzn_de_a4_inf_15": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "15"
+    },
+    "00lzn_de_a4_inf_30": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "30"
+    },
+    "00lzn_de_a4_sup_15": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "00lzn_de_a4_sup_30": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "30"
+    },
+    "00lzn_de_a4_sup_85": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "85"
+    },
+    "00lzn_de_a_inf_25": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "25"
+    },
+    "00lzn_de_a_inf_35": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "35"
+    },
+    "00lzn_de_a_inf_45": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "45"
+    },
+    "00lzn_de_a_inf_50": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "LESSER",
+      "value": "50"
+    },
+    "00lzn_de_a_sup_25": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "25"
+    },
+    "00lzn_de_a_sup_66": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "66"
+    },
+    "00lzn_de_a_sup_75": {
+      "sheet": "legacy_random",
+      "index": "dice_a",
+      "symbol": "GREATER",
+      "value": "75"
+    },
+    "00lzn_dongeon": {
+      "sheet": "scan_large_p1k",
+      "key": "98",
+      "symbol": "GREATER",
+      "value": "20"
+    },
+    "00lzn_end_stone": {
+      "sheet": "scan_large_p1k",
+      "key": "121",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "00lzn_feuille": {
+      "sheet": "scan_large_p1k",
+      "key": "18",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "00lzn_joueur_nether": {
+      "sheet": "legacy",
+      "index": "world_nether",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "00lzn_no_sun": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
+    "00lzn_ocean": {
+      "sheet": "scan_large_p1k",
+      "key": "9",
+      "symbol": "GREATER",
+      "value": "100"
+    },
+    "00lzn_roche": {
+      "sheet": "scan_small_p1k",
+      "key": "1",
+      "symbol": "GREATER",
+      "value": "330"
+    },
+    "00lzn_sandstone": {
+      "sheet": "scan_large_p1k",
+      "key": "24",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "00lzn_snow": {
+      "sheet": "scan_large_p1k",
+      "key": "78",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "00lzn_vigne": {
+      "sheet": "scan_large_p1k",
+      "key": "106",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "Il y a du soleil": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "Jungle_C1": {
+      "key": "0",
+      "symbol": "NOT_EQUAL",
+      "value": "0"
+    },
+    "Light_is_max": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "EQUAL",
+      "value": "15"
+    },
+    "Moins de 5hp": {
+      "sheet": "legacy",
+      "index": "player_health_ceil",
+      "symbol": "LESSER",
+      "value": "5"
+    },
+    "Player_death": {
+      "sheet": "legacy",
+      "index": "player_health_ceil",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
+    "Player_is_alive": {
+      "sheet": "legacy",
+      "index": "player_health_ceil",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "Time_2500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "2500"
+    },
+    "Time_Sup_500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "500"
+    },
+    "Time_inf_12500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "12500"
+    },
+    "Time_inf_500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "500"
+    },
+    "Time_is_1": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Time_is_22500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "22500"
+    },
+    "Time_sup_12500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "12500"
+    },
+    "Time_sup_1500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "1500"
+    },
+    "Time_sup_15000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "15000"
+    },
+    "Time_sup_5000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "5000"
+    },
+    "Time_sup_7500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "7500"
+    },
+    "aube soleil": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "detect_forest": {
+      "sheet": "scan_large_p1k",
+      "key": "18",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "detect_jungle": {
+      "sheet": "scan_large_p1k",
+      "key": "106",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "detect_snow": {
+      "sheet": "scan_large_p1k",
+      "key": "78",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "il pleut": {
+      "sheet": "w_general",
+      "index": "rain",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "player_in_ender": {
+      "sheet": "scan_large",
+      "key": "121",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "snow_sup_1": {
+      "sheet": "scan_large_p1k",
+      "key": "78",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "time is 13500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "13500"
+    },
+    "time is 14000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "14000"
+    },
+    "time is 19000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "19000"
+    },
+    "time is 23500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "23600"
+    },
+    "time is 500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "500"
+    },
+    "time is 5000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "5000"
+    },
+    "time_ is_9500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "EQUAL",
+      "value": "9500"
+    },
+    "time_inf_14500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "14500"
+    },
+    "time_inf_22000": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "22000"
+    },
+    "time_sup_13500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "13500"
+    },
+    "time_sup_22500": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "GREATER",
+      "value": "22500"
+    },
+    "ya pas de soleil": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "EQUAL",
+      "value": "0"
+    }
+  },
+  "set": {
+    "Desert_Mus_a": {
+      "yes": [
+        "Time_sup_5000",
+        "00lzn_sandstone"
+      ],
+      "no": []
+    },
+    "Jammer_Nether": {
+      "yes": [
+        "00lzn_joueur_nether"
+      ],
+      "no": []
+    },
+    "Jammer_day_snow": {
+      "yes": [
+        "time_sup_7500"
+      ],
+      "no": []
+    },
+    "Jammer_zik_aube_A": {
+      "yes": [
+        "time is 500"
+      ],
+      "no": []
+    },
+    "Jammer_zik_nuit_A": {
+      "yes": [
+        "time_sup_15000"
+      ],
+      "no": []
+    },
+    "Jammer_zik_nuit_B": {
+      "no": [
+        "time_sup_13500"
+      ],
+      "yes": []
+    },
+    "Jungle_Condition_1": {
+      "yes": [
+        "00lzn_feuille",
+        "time is 5000",
+        "00lzn_vigne"
+      ],
+      "no": [
+        "ya pas de soleil"
+      ]
+    },
+    "Jungle_Condition_2": {
+      "yes": [
+        "00lzn_feuille",
+        "time is 5000",
+        "00lzn_vigne",
+        "00lzn_de_A_sup_66"
+      ],
+      "no": []
+    },
+    "Jungle_Condition_3": {
+      "yes": [
+        "00lzn_feuille",
+        "00lzn_vigne",
+        "00lzn_de_A_inf_50",
+        "time_ is_9500"
+      ],
+      "no": []
+    },
+    "Music_day_a": {
+      "yes": [
+        "time_sup_22500"
+      ],
+      "no": []
+    },
+    "Music_day_b": {
+      "yes": [
+        "time_is_22500"
+      ],
+      "no": []
+    },
+    "Music_day_snow": {
+      "yes": [
+        "Time_sup_5000",
+        "detect_snow"
+      ],
+      "no": [
+        "player_in_Ender",
+        "ya pas de soleil",
+        "00lzn_joueur_nether"
+      ]
+    },
+    "Music_day_forest": {
+      "yes": [
+        "00lzn_feuille",
+        "Time_sup_5000"
+      ],
+      "no": [
+        "il pleut",
+        "player_in_Ender",
+        "ya pas de soleil",
+        "00lzn_joueur_nether"
+      ]
+    },
+    "Music_day_jungle": {
+      "yes": [
+        "Time_sup_5000",
+        "detect_jungle"
+      ],
+      "no": [
+        "player_in_Ender",
+        "00lzn_joueur_nether"
+      ]
+    },
+    "Music_nighta": {
+      "yes": [
+        "time_sup_5000"
+      ],
+      "no": [
+        "Time_sup_15000"
+      ]
+    },
+    "Music_nightb": {
+      "no": [
+        "Time_inf_12500"
+      ],
+      "yes": []
+    },
+    "Player_in_ender": {
+      "yes": [
+        "player_in_ender"
+      ],
+      "no": []
+    },
+    "Player_is_alive": {
+      "yes": [
+        "player_is_alive"
+      ],
+      "no": []
+    },
+    "There is no snow jammer": {
+      "yes": [
+        "snow_sup_1"
+      ],
+      "no": []
+    },
+    "player_death": {
+      "yes": [
+        "player_death"
+      ],
+      "no": []
+    }
+  },
+  "event": {
+    "Player_Death": {
+      "path": [
+        "music/rhapsodia_death_music.ogg"
+      ],
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.15,
+      "distance": 0
+    }
+  },
+  "machine": {
+    "Player_Death": {
+      "allow": [
+        "player_death"
+      ],
+      "restrict": [],
+      "event": [
+        {
+          "event": "Player_Death",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 500.0,
+          "delay_max": 500.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rhapsodia_desert_day": {
+      "allow": [
+        "DEserT_Mus_A"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "Jammer_day_snow",
+        "Player_in_ender"
+      ],
+      "fadein": 1.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 43.0,
+      "stream": {
+        "path": "music/rhapsodia_desert_melody.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    },
+    "Rhapsodia_forest_day": {
+      "allow": [
+        "music_day_forest"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "player_death",
+        "Jammer_day_snow",
+        "There is no snow jammer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "stream": {
+        "path": "music/rhapsodia_flute_theme.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    },
+    "Rhapsodia_jungle_day": {
+      "allow": [
+        "music_day_jungle"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "Jammer_day_snow",
+        "Player_in_ender"
+      ],
+      "fadein": 3.0,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "stream": {
+        "path": "music/jungleworld_roaming.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    },
+    "Rhapsodia_snow_dAy": {
+      "allow": [
+        "musiC_day_Snow"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "Jammer_day_snow",
+        "Player_in_ender"
+      ],
+      "fadein": 0.0,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 2.0,
+      "stream": {
+        "path": "music/snowworld_aube.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    },
+    "Rhapsodia_newday": {
+      "allow": [
+        "Music_day_A",
+        "Music_day_B"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "Jammer_zik_aube_A",
+        "Player_in_ender"
+      ],
+      "fadein": 0.5,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 168.0,
+      "stream": {
+        "path": "music/newday.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    },
+    "Rhapsodia_newnigHt": {
+      "allow": [
+        "Music_nightA",
+        "Music_nightB"
+      ],
+      "restrict": [
+        "Jammer_Nether",
+        "Jammer_zik_nuit_A",
+        "Jammer_zik_nuit_B"
+      ],
+      "fadein": 5.0,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "stream": {
+        "path": "music/nuit.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": false,
+        "pause": false
+      }
+    }
+  },
+  "list": {},
+  "dynamic": {}
+}

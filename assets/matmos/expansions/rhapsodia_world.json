@@ -1,0 +1,4171 @@
+{
+  "condition": {
+    "Air is tight 35%": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "LESSER",
+      "value": "330"
+    },
+    "Rha_Ice_close": {
+      "sheet": "scan_small",
+      "index": "minecraft:ice",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "Rha_Net_obsidian_sup_6": {
+      "sheet": "scan_small",
+      "index": "minecraft:obsidian",
+      "symbol": "GREATER",
+      "value": "6"
+    },
+    "Rha_Water_sup_50": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "50"
+    },
+    "Rha_air_inf_125": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "LESSER",
+      "value": "125"
+    },
+    "Rha_air_sup_330": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "GREATER",
+      "value": "330"
+    },
+    "Rha_air_sup_750": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "GREATER",
+      "value": "750"
+    },
+    "Rha_altitude_inf_45": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "LESSER",
+      "value": "45"
+    },
+    "Rha_altitude_sup_75": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "GREATER",
+      "value": "75"
+    },
+    "Rha_altitude_und_16": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "LESSER",
+      "value": "16"
+    },
+    "Rha_altitude_und_32": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "LESSER",
+      "value": "32"
+    },
+    "Rha_def_hauteur_huit": {
+      "sheet": "cb_column",
+      "index": "thickness_overhead",
+      "symbol": "GREATER",
+      "value": "7"
+    },
+    "Rha_detect_Ocean": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "200"
+    },
+    "Rha_detect_Rha_dyn_lava": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_dyn_lava_small",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Rha_detect_alt_sup_80": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "GREATER",
+      "value": "80"
+    },
+    "Rha_detect_donjon_stonebrick": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:stonebrick",
+      "symbol": "GREATER",
+      "value": "20"
+    },
+    "Rha_detect_donjon_wooddoor": {
+      "sheet": "scan_large",
+      "index": "minecraft:wooden_door",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "Rha_detect_dyn_rha_player_struct": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_player_struct",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "Rha_detect_feuille": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:leaves",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "Rha_detect_feuille_sup_3": {
+      "sheet": "scan_small",
+      "index": "minecraft:leaves",
+      "symbol": "GREATER",
+      "value": "3"
+    },
+    "Rha_detect_highland_alt_96": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "GREATER",
+      "value": "96"
+    },
+    "Rha_detect_ice_lake": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:ice",
+      "symbol": "GREATER",
+      "value": "4"
+    },
+    "Rha_detect_ice_lake_smallscan": {
+      "sheet": "scan_small",
+      "index": "minecraft:ice",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "Rha_detect_ice_und_player": {
+      "sheet": "legacy_column",
+      "index": "y-2_as_number",
+      "symbol": "EQUAL",
+      "value": "79"
+    },
+    "Rha_detect_ice_und_player__AS_BLOCK": {
+      "sheet": "legacy_column",
+      "index": "y-2_as_number",
+      "symbol": "EQUAL",
+      "value": "minecraft:ice"
+    },
+    "Rha_detect_lake_next": {
+      "sheet": "scan_small",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Rha_detect_liane_jungle": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:vine",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "Rha_detect_liane_swamp": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:vine",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "Rha_detect_lilypad": {
+      "sheet": "scan_large",
+      "index": "minecraft:waterlily",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "Rha_detect_mush_swamp": {
+      "sheet": "scan_large",
+      "index": "minecraft:brown_mushroom",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Rha_detect_ocean_no_dirt": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:dirt",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "Rha_detect_ocean_no_sand": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:sand",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "Rha_detect_rha_dyn_rock": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_dyn_rock",
+      "symbol": "GREATER",
+      "value": "300"
+    },
+    "Rha_detect_sandstone": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:sandstone",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "Rha_detect_snow": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:snow_layer",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "Rha_detect_snow_over_5": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:snow_layer",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "Rha_detect_underwater": {
+      "sheet": "ply_stats",
+      "index": "oxygen",
+      "symbol": "LESSER",
+      "value": "300"
+    },
+    "Rha_detect_woodlog_sup_3": {
+      "sheet": "scan_small",
+      "index": "minecraft:log",
+      "symbol": "GREATER",
+      "value": "3"
+    },
+    "Rha_dirt_inf_50": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:dirt",
+      "symbol": "LESSER",
+      "value": "50"
+    },
+    "Rha_dyn_Rha_vitre": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_vitre",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Rha_dyn_rha_lava_12": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_dyn_lava_small",
+      "symbol": "GREATER",
+      "value": "12"
+    },
+    "Rha_ender_nomore": {
+      "sheet": "scan_large",
+      "index": "minecraft:end_stone",
+      "symbol": "LESSER",
+      "value": "5"
+    },
+    "Rha_foret_a_donf": {
+      "sheet": "scan_large",
+      "index": "minecraft:leaves",
+      "symbol": "GREATER",
+      "value": "512"
+    },
+    "Rha_furnace_on": {
+      "sheet": "scan_small",
+      "index": "minecraft:lit_furnace",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Rha_incendie_30_fire": {
+      "sheet": "scan_large",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "30"
+    },
+    "Rha_is_raining": {
+      "sheet": "w_general",
+      "index": "rain",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Rha_is_thundering": {
+      "sheet": "w_general",
+      "index": "thunder",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Rha_lava_lightlevel_sup9": {
+      "sheet": "cb_light",
+      "index": "final",
+      "symbol": "GREATER",
+      "value": "9"
+    },
+    "Rha_med_incendie": {
+      "sheet": "scan_small",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "11"
+    },
+    "Rha_player_can_see_sky": {
+      "sheet": "cb_light",
+      "index": "see_sky",
+      "symbol": "NOT_EQUAL",
+      "value": "0"
+    },
+    "Rha_player_in_Nether": {
+      "sheet": "legacy",
+      "index": "world_nether",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Rha_player_is_in_End": {
+      "sheet": "scan_large",
+      "index": "minecraft:end_stone",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Rha_player_is_under_tree": {
+      "sheet": "cb_column",
+      "index": "thickness_overhead",
+      "symbol": "LESSER",
+      "value": "0"
+    },
+    "Rha_player_is_underwater": {
+      "sheet": "ply_general",
+      "index": "in_water",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Rha_rain_can_reach": {
+      "sheet": "cb_column",
+      "index": "can_rain_reach",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Rha_small_incendie": {
+      "sheet": "scan_small",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Rha_small_sup_incendie": {
+      "sheet": "scan_small",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "Rha_sun_can_reach_player": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "Rha_water_dyn_rha_seaside": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_seaside",
+      "symbol": "LESSER",
+      "value": "300"
+    },
+    "Rha_water_pas_loin": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_dyn_Water",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Rocks (24 S)": {
+      "sheet": "_DYNAMIC",
+      "index": "Rha_dyn_rock",
+      "symbol": "GREATER",
+      "value": "450"
+    },
+    "Sunlight Maximum 15/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "EQUAL",
+      "value": "15"
+    },
+    "Sunlight greater than 10/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Sunlight lower than 10/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "Sunlight lower than 3/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "3"
+    },
+    "Sunlight lower than 5/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "5"
+    },
+    "Time (0 - 11500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "11500"
+    },
+    "Time (0 - 12250)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "12250"
+    },
+    "Time (0 - 13000)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "13000"
+    },
+    "Time (0 - 23500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "23500"
+    },
+    "Time (0 - 500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "500"
+    },
+    "Water 5% (L)": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "50"
+    },
+    "Water 5% (S)": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "50"
+    }
+  },
+  "set": {
+    "00jon_no_outdoor_sound_test": {
+      "yes": [
+        "Rha_detect_rha_dyn_rock",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "00jon_no_outdoor_sound_thickness8": {
+      "yes": [
+        "Rha_def_hauteur_huit",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "Rha_Altitude_inf_45": {
+      "yes": [
+        "Rha_altitude_inf_45"
+      ],
+      "no": []
+    },
+    "Rha_Highland_ok": {
+      "yes": [
+        "Rha_air_sup_750",
+        "Rha_detect_highland_alt_96"
+      ],
+      "no": [
+        "Rha_is_raining",
+        "Sunlight lower than 10/15"
+      ]
+    },
+    "Rha_Nether_cave": {
+      "yes": [
+        "Rha_air_inf_125",
+        "Rha_player_in_Nether"
+      ],
+      "no": []
+    },
+    "Rha_Nether_fire": {
+      "yes": [
+        "Rha_player_in_Nether",
+        "Rha_small_sup_incendie"
+      ],
+      "no": []
+    },
+    "Rha_Nether_lava": {
+      "yes": [
+        "Rha_detect_Rha_dyn_lava",
+        "Rha_player_in_Nether"
+      ],
+      "no": []
+    },
+    "Rha_air_inf_125_sun_10": {
+      "yes": [
+        "Rha_air_inf_125",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "Rha_biome_desert": {
+      "yes": [
+        "Rha_detect_sandstone"
+      ],
+      "no": [
+        "Rha_detect_feuille",
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_foret": {
+      "yes": [
+        "Rha_detect_feuille"
+      ],
+      "no": [
+        "Rha_detect_liane_swamp",
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_ice_lake": {
+      "yes": [
+        "Rha_detect_ice_lake"
+      ],
+      "no": [
+        "Rha_detect_feuille",
+        "Rha_detect_sandstone",
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_jungle": {
+      "yes": [
+        "Rha_detect_feuille",
+        "Rha_detect_liane_jungle"
+      ],
+      "no": [
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_marais": {
+      "yes": [
+        "Rha_detect_liane_swamp",
+        "Rha_detect_mush_swamp"
+      ],
+      "no": [
+        "Rha_detect_liane_jungle",
+        "Rha_detect_sandstone",
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_marais_lilypad": {
+      "yes": [
+        "Rha_detect_lilypad"
+      ],
+      "no": [
+        "Rha_detect_liane_jungle",
+        "Rha_detect_sandstone",
+        "Rha_detect_snow",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_ocean": {
+      "yes": [
+        "Rha_detect_Ocean",
+        "Rha_detect_ocean_no_dirt",
+        "Rha_detect_ocean_no_sand"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_plaine": {
+      "yes": [],
+      "no": [
+        "Rha_detect_Ocean",
+        "Rha_detect_feuille",
+        "Rha_detect_ice_lake",
+        "Rha_detect_liane_swamp",
+        "Rha_detect_sandstone",
+        "Rha_detect_snow",
+        "Rha_detect_snow_over_5",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_snow_foret": {
+      "yes": [
+        "Rha_detect_feuille",
+        "Rha_detect_snow"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_snow_mount": {
+      "yes": [
+        "Rha_altitude_sup_75",
+        "Rha_detect_snow_over_5"
+      ],
+      "no": [
+        "Rha_detect_feuille",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_biome_snow_plain": {
+      "yes": [
+        "Rha_detect_snow"
+      ],
+      "no": [
+        "Rha_detect_feuille",
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_cave_ou_faille": {
+      "yes": [
+        "Rha_air_sup_330"
+      ],
+      "no": [
+        "Rha_player_in_Nether",
+        "Rha_sun_can_reach_player"
+      ]
+    },
+    "Rha_cave_water": {
+      "yes": [
+        "Rha_water_pas_loin",
+        "Rocks (24 S)",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "Rha_deep_cave_med": {
+      "yes": [
+        "Rha_altitude_und_32"
+      ],
+      "no": [
+        "In Aether (Assumption)",
+        "Rha_player_in_Nether",
+        "Rha_sun_can_reach_player"
+      ]
+    },
+    "Rha_deep_cave_small": {
+      "yes": [
+        "Rha_altitude_und_16"
+      ],
+      "no": [
+        "In Aether (Assumption)",
+        "Rha_player_in_Nether",
+        "Rha_sun_can_reach_player"
+      ]
+    },
+    "Rha_ender_jammer": {
+      "yes": [
+        "Rha_ender_nomore"
+      ],
+      "no": []
+    },
+    "Rha_furnace_on": {
+      "yes": [
+        "Rha_furnace_on"
+      ],
+      "no": []
+    },
+    "Rha_ice_smallscan": {
+      "yes": [
+        "Rha_detect_ice_lake_smallscan"
+      ],
+      "no": []
+    },
+    "Rha_incendie_big": {
+      "yes": [
+        "Rha_incendie_30_fire"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_incendie_med": {
+      "yes": [
+        "Rha_med_incendie"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_incendie_small": {
+      "yes": [
+        "Rha_small_incendie"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_indoor": {
+      "yes": [
+        "Rha_detect_dyn_rha_player_struct"
+      ],
+      "no": [
+        "Rha_player_is_under_tree",
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_lake_next_to_player": {
+      "yes": [
+        "Rha_detect_lake_next"
+      ],
+      "no": [
+        "Rha_detect_ice_lake_smallscan"
+      ]
+    },
+    "Rha_lava_surface": {
+      "yes": [
+        "Rha_detect_Rha_dyn_lava"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_nearby_water": {
+      "yes": [
+        "Rha_detect_lake_next"
+      ],
+      "no": [
+        "Rha_detect_ice_lake_smallscan"
+      ]
+    },
+    "Rha_nether_und_6_obsi": {
+      "yes": [
+        "Rha_player_in_Nether"
+      ],
+      "no": [
+        "Rha_Net_obsidian_sup_6"
+      ]
+    },
+    "Rha_player_in_dungeon": {
+      "yes": [
+        "Rha_detect_donjon_stonebrick",
+        "Rha_detect_donjon_wooddoor",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "Rha_player_inside_cave": {
+      "yes": [],
+      "no": [
+        "Rha_player_in_Nether",
+        "Rha_sun_can_reach_player"
+      ]
+    },
+    "Rha_player_is_in_Nether": {
+      "yes": [
+        "Rha_player_in_Nether"
+      ],
+      "no": []
+    },
+    "Rha_player_is_in_end": {
+      "yes": [
+        "Rha_player_is_in_End"
+      ],
+      "no": []
+    },
+    "Rha_player_is_inside": {
+      "yes": [
+        "Sunlight lower than 10/15"
+      ],
+      "no": [
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_player_is_outside": {
+      "yes": [
+        "Rha_rain_can_reach"
+      ],
+      "no": [
+        "Sunlight lower than 10/15"
+      ]
+    },
+    "Rha_player_is_underwater": {
+      "yes": [
+        "Rha_detect_underwater"
+      ],
+      "no": []
+    },
+    "Rha_rain_cave_next_to_exit": {
+      "yes": [
+        "Rha_is_raining",
+        "Sunlight greater than 10/15"
+      ],
+      "no": [
+        "Rha_detect_feuille_sup_3",
+        "Rha_detect_woodlog_sup_3",
+        "Rha_player_in_Nether",
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_rain_inside_cave": {
+      "yes": [
+        "Rha_is_raining"
+      ],
+      "no": [
+        "Rha_detect_feuille_sup_3",
+        "Rha_detect_woodlog_sup_3",
+        "Rha_player_in_Nether",
+        "Rha_rain_can_reach",
+        "Sunlight greater than 10/15",
+        "Sunlight lower than 3/15"
+      ]
+    },
+    "Rha_rain_inside_home": {
+      "yes": [
+        "Rha_detect_dyn_rha_player_struct",
+        "Rha_is_raining"
+      ],
+      "no": [
+        "Rha_player_in_Nether",
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_rain_on": {
+      "yes": [
+        "Rha_is_raining"
+      ],
+      "no": []
+    },
+    "Rha_rain_outside": {
+      "yes": [
+        "Rha_is_raining",
+        "Rha_rain_can_reach"
+      ],
+      "no": [
+        "Rha_player_in_Nether"
+      ]
+    },
+    "Rha_rain_over_glass": {
+      "yes": [
+        "Rha_detect_dyn_rha_player_struct",
+        "Rha_dyn_Rha_vitre",
+        "Rha_is_raining"
+      ],
+      "no": [
+        "Rha_player_in_Nether",
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_rain_protected_by_tree": {
+      "yes": [
+        "Rha_detect_feuille_sup_3",
+        "Rha_detect_woodlog_sup_3",
+        "Rha_is_raining"
+      ],
+      "no": [
+        "Rha_player_in_Nether",
+        "Rha_rain_can_reach"
+      ]
+    },
+    "Rha_seaside": {
+      "yes": [
+        "Rha_Water_sup_50",
+        "Rha_water_dyn_rha_seaside"
+      ],
+      "no": [
+        "Rha_detect_ice_lake_smallscan",
+        "Rha_detect_lilypad"
+      ]
+    },
+    "Rha_snow_ice_scrape": {
+      "yes": [
+        "Rha_Ice_close",
+        "Rha_detect_ice_und_player"
+      ],
+      "no": []
+    },
+    "Rha_thunder_indoor": {
+      "yes": [
+        "Rha_air_sup_330",
+        "Rha_is_raining",
+        "Rha_is_thundering",
+        "Rha_sun_can_reach_player",
+        "Sunlight lower than 5/15"
+      ],
+      "no": []
+    },
+    "Rha_thunder_outside": {
+      "yes": [
+        "Rha_air_sup_330",
+        "Rha_is_raining",
+        "Rha_is_thundering"
+      ],
+      "no": [
+        "Sunlight lower than 5/15"
+      ]
+    },
+    "Rha_verre": {
+      "yes": [
+        "Rha_detect_dyn_rha_player_struct",
+        "Rha_dyn_Rha_vitre"
+      ],
+      "no": []
+    },
+    "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)": {
+      "yes": [
+        "Time (0 - 12250)"
+      ],
+      "no": []
+    },
+    "Time vrai de 0 a 500 (demi aube cote jour)": {
+      "yes": [
+        "Time (0 - 500)"
+      ],
+      "no": []
+    },
+    "Time vrai de 11500 a 13000 (crepuscule)": {
+      "yes": [
+        "Time (0 - 13000)"
+      ],
+      "no": [
+        "Time (0 - 11500)"
+      ]
+    },
+    "Time vrai de 12250 a 23500 (mi nuit)": {
+      "yes": [
+        "Time (0 - 23500)"
+      ],
+      "no": [
+        "Time (0 - 12250)"
+      ]
+    },
+    "Time vrai de 13000 a 23500 (nuit)": {
+      "yes": [
+        "Time (0 - 23500)"
+      ],
+      "no": [
+        "Time (0 - 13000)"
+      ]
+    },
+    "Time vrai de 23500 a 23999 (demi aube cote nuit)": {
+      "yes": [],
+      "no": [
+        "Time (0 - 23500)"
+      ]
+    },
+    "Time vrai de 500 a 11500 (jour)": {
+      "yes": [
+        "Time (0 - 11500)"
+      ],
+      "no": [
+        "Time (0 - 500)"
+      ]
+    },
+    "ZZZ DEBUG TRUE": {
+      "yes": [
+        "ZZZ DEBUG TRUE"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "Rha_Ender_world": {
+      "allow": [
+        "Rha_player_is_in_end"
+      ],
+      "restrict": [
+        "Rha_ender_jammer",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 3.0,
+      "fadeout": 3.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_End_dragon",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": 0.0
+        }
+      ],
+      "stream": {
+        "path": "end/ender_loop.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": true,
+        "pause": false
+      }
+    },
+    "Rha_Fire_nether_small": {
+      "allow": [
+        "Rha_Nether_fire",
+        "Rha_incendie_small"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Fire (Small)",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 2.0,
+          "delay_max": 3.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_Jungle_nuit_out": {
+      "allow": [
+        "Rha_biome_jungle"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_jungle_nuit_amb",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_Nether_amb": {
+      "allow": [
+        "Rha_player_is_in_Nether"
+      ],
+      "restrict": [
+        "Rha_Nether_cave"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Nether_ambience",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_Nether_cave": {
+      "allow": [
+        "Rha_Nether_cave"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Nether_ambience",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 3.0,
+          "delay_max": 3.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Rha_Ocean_in": {
+      "allow": [
+        "Rha_biome_ocean"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_ice_smallscan",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Ocean",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 8.0,
+          "delay_max": 8.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_Ocean_out": {
+      "allow": [
+        "Rha_biome_ocean"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_ice_smallscan",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Ocean",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 8.0,
+          "delay_max": 8.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_Rain_windows": {
+      "allow": [
+        "Rha_rain_over_glass"
+      ],
+      "restrict": [
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_desert",
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Rain_window_amb",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 4.0,
+          "delay_max": 4.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_cave_drops_amb": {
+      "allow": [
+        "Rha_cave_water"
+      ],
+      "restrict": [
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Cave_drops_amb",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 4.0,
+          "delay_max": 7.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Rha_cave_rumble": {
+      "allow": [
+        "Rha_player_inside_cave"
+      ],
+      "restrict": [
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Cave_amb",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_desert_day_amb_in": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_desert_day_amb_out": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_desert_night_amb_in": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_nuit",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_desert_night_amb_out": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_nuit",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_desert_wind_day_in": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour_vent",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 10.0
+        }
+      ]
+    },
+    "Rha_desert_wind_day_out": {
+      "allow": [
+        "Rha_biome_desert"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour_vent",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 25.0
+        }
+      ]
+    },
+    "Rha_fire_big_med": {
+      "allow": [
+        "Rha_incendie_big",
+        "Rha_incendie_med"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Fire (Big)",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 3.0,
+          "delay_max": 5.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_foret_crepuscule_in": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_crepuscule",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_crepuscule_out": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_crepuscule",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_jour_amb_in": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_jour_amb",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_jour_amb_out": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_jour_amb",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_jour_vent_in": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_jour_vent",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 10.0
+        }
+      ]
+    },
+    "Rha_foret_jour_vent_out": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_jour_vent",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 10.0
+        }
+      ]
+    },
+    "Rha_foret_morning_in": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_aube",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_morning_out": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_aube",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_nuit_amb_in": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_nuit_amb",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_foret_nuit_amb_out": {
+      "allow": [
+        "Rha_biome_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_foret_nuit_amb",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_furnace_is_on": {
+      "allow": [
+        "Rha_furnace_on"
+      ],
+      "restrict": [
+        "Rha_player_is_outside"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_furnace_on",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_high_alti_wind_in": {
+      "allow": [
+        "Rha_Highland_ok"
+      ],
+      "restrict": [
+        "Rha_biome_jungle",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_rain_on",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_High_Alt_wind",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_high_alti_wind_out": {
+      "allow": [
+        "Rha_Highland_ok"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_jungle",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_High_Alt_wind",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_incave_sound_faille_winds": {
+      "allow": [
+        "Rha_cave_ou_faille"
+      ],
+      "restrict": [
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_cave_sound_faille_winds",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 12.0,
+          "delay_max": 12.1,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "Rha_jungle_jour_in": {
+      "allow": [
+        "Rha_biome_jungle"
+      ],
+      "restrict": [
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_jungle_jour_amb",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_jungle_jour_out": {
+      "allow": [
+        "Rha_biome_jungle"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_jungle_jour_amb",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_jungle_nuit_in": {
+      "allow": [
+        "Rha_biome_jungle"
+      ],
+      "restrict": [
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_jungle_nuit_amb",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_lake_amb_in": {
+      "allow": [
+        "Rha_lake_next_to_player"
+      ],
+      "restrict": [
+        "Rha_ice_smallscan",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_snow_ice_scrape"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Lake_amb",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.0,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "Rha_lake_amb_out": {
+      "allow": [
+        "Rha_lake_next_to_player"
+      ],
+      "restrict": [
+        "Rha_ice_smallscan",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_snow_ice_scrape"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Lake_amb",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.0,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "Rha_lava_nether": {
+      "allow": [
+        "Rha_Nether_lava"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_lava_in",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 3.0,
+          "delay_max": 3.5,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_lava_outdoor": {
+      "allow": [
+        "Rha_lava_surface"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_lave_out",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 2.5,
+          "delay_max": 3.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_plaine_crep_in": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_crep",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_plaine_crep_out": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_crep",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_plaine_day_amb_in": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_jour",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_plaine_day_amb_out": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_jour",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_plaine_day_wind_in": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_jour_vent",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 70.0,
+          "delay_start": 15.0
+        }
+      ]
+    },
+    "Rha_plaine_day_wind_out": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_jour_vent",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": 6.0
+        }
+      ]
+    },
+    "Rha_plaine_night_in": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_nuit",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_plaine_night_out": {
+      "allow": [
+        "Rha_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_plaine_nuit",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_player_incave_sound": {
+      "allow": [
+        "Rha_player_inside_cave"
+      ],
+      "restrict": [
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_cave_sound",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 35.0,
+          "delay_start": 8.0
+        }
+      ]
+    },
+    "Rha_rain_inside": {
+      "allow": [
+        "Rha_rain_inside_cave",
+        "Rha_rain_inside_home"
+      ],
+      "restrict": [
+        "Rha_biome_desert",
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Rain_inside",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_rain_outside": {
+      "allow": [
+        "Rha_rain_cave_next_to_exit",
+        "Rha_rain_outside"
+      ],
+      "restrict": [
+        "Rha_biome_desert",
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Rain_outside",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_rain_under_tree": {
+      "allow": [
+        "Rha_rain_protected_by_tree"
+      ],
+      "restrict": [
+        "Rha_biome_desert",
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_in_end",
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Rain_tree",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_seaside_day_in": {
+      "allow": [
+        "Rha_seaside"
+      ],
+      "restrict": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_marais_lilypad",
+        "Rha_biome_ocean",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_seaside",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 7.5,
+          "delay_max": 8.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_seaside_day_out": {
+      "allow": [
+        "Rha_seaside"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_ice_lake",
+        "Rha_biome_marais_lilypad",
+        "Rha_biome_ocean",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_seaside",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 7.5,
+          "delay_max": 8.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_seaside_night_in": {
+      "allow": [
+        "Rha_seaside"
+      ],
+      "restrict": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_marais_lilypad",
+        "Rha_biome_ocean",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_seaside",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_seaside_night_out": {
+      "allow": [
+        "Rha_seaside"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_ice_lake",
+        "Rha_biome_marais_lilypad",
+        "Rha_biome_ocean",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 500 a 11500 (jour)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_seaside",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_forest_amb_in": {
+      "allow": [
+        "Rha_biome_snow_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_foret_jour_wind",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 10.0
+        },
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 20.0
+        }
+      ]
+    },
+    "Rha_snow_forest_amb_out": {
+      "allow": [
+        "Rha_biome_snow_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_foret_jour_wind",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 10.0
+        },
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 20.0
+        }
+      ]
+    },
+    "Rha_snow_forest_in": {
+      "allow": [
+        "Rha_biome_snow_foret"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_foret_jour_amb",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_forest_out": {
+      "allow": [
+        "Rha_biome_snow_foret"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_foret_jour_amb",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_ice_scrapes": {
+      "allow": [
+        "Rha_snow_ice_scrape"
+      ],
+      "restrict": [
+        "Rha_player_is_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_ICE_craque",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 15.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_mount_day_in": {
+      "allow": [
+        "Rha_biome_snow_mount"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_biome_snow_foret",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_mount",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_mount_day_out": {
+      "allow": [
+        "Rha_biome_snow_mount"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_snow_foret",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_mount",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_plain_day_in": {
+      "allow": [
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_biome_snow_mount",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 70.0,
+          "delay_max": 200.0,
+          "delay_start": 20.0
+        },
+        {
+          "event": "Rha_neige_foret_jour_wind",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 5.0
+        }
+      ]
+    },
+    "Rha_snow_plain_day_out": {
+      "allow": [
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_snow_mount",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_foret_jour_wind",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 90.0,
+          "delay_start": 8.0
+        },
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 70.0,
+          "delay_max": 200.0,
+          "delay_start": 30.0
+        }
+      ]
+    },
+    "Rha_snow_plain_wind_day_in": {
+      "allow": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_biome_snow_mount",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_plaine_jour_wind",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_plain_wind_day_out": {
+      "allow": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_biome_snow_mount",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_neige_plaine_jour_wind",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_snow_world_night_in": {
+      "allow": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "Rha_neige_nuit_chouette",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 90.0,
+          "delay_start": 6.0
+        },
+        {
+          "event": "Rha_neige_nuit_vent",
+          "vol_mod": 0.04,
+          "pitch_mod": 1.0,
+          "delay_min": 50.0,
+          "delay_max": 200.0,
+          "delay_start": 30.0
+        },
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.04,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 30.0
+        }
+      ]
+    },
+    "Rha_snow_world_night_out": {
+      "allow": [
+        "Rha_biome_ice_lake",
+        "Rha_biome_snow_foret",
+        "Rha_biome_snow_mount",
+        "Rha_biome_snow_plain"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_desert_jour",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "Rha_neige_nuit_chouette",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 90.0,
+          "delay_start": 3.0
+        },
+        {
+          "event": "Rha_neige_loup",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 30.0
+        },
+        {
+          "event": "Rha_neige_nuit_vent",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 50.0,
+          "delay_max": 200.0,
+          "delay_start": 30.0
+        }
+      ]
+    },
+    "Rha_swamp_jour_amb_in": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_jour_amb",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_swamp_jour_amb_out": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_jour_amb",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_swamp_jour_in": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_jour",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 15.0
+        }
+      ]
+    },
+    "Rha_swamp_jour_out": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_seaside",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_jour",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rha_swamp_nuit_amb_in": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_nuit_amb",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_swamp_nuit_amb_out": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_nuit_amb",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Rha_swamp_nuit_in": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_nuit",
+          "vol_mod": 0.03,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 15.0
+        }
+      ]
+    },
+    "Rha_swamp_nuit_out": {
+      "allow": [
+        "Rha_biome_marais",
+        "Rha_biome_marais_lilypad"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Rha_Altitude_inf_45",
+        "Rha_Highland_ok",
+        "Rha_air_inf_125_sun_10",
+        "Rha_indoor",
+        "Rha_player_inside_cave",
+        "Rha_player_is_underwater",
+        "Rha_rain_on",
+        "Rha_seaside",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_marais_nuit",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 15.0
+        }
+      ]
+    },
+    "Rha_thunder_amb_in": {
+      "allow": [
+        "Rha_thunder_indoor"
+      ],
+      "restrict": [
+        "Rha_player_inside_cave",
+        "Rha_player_is_outside"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Thunderstorm_amb",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 32.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Rha_thunder_amb_out": {
+      "allow": [
+        "Rha_thunder_outside"
+      ],
+      "restrict": [
+        "Rha_player_inside_cave",
+        "Rha_player_is_inside"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rha_Thunderstorm_amb",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 32.0,
+          "delay_start": 0.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "Fire (Big)": {
+      "vol_min": 0.5,
+      "vol_max": 0.6,
+      "pitch_min": 0.3,
+      "pitch_max": 0.5,
+      "distance": 0,
+      "path": []
+    },
+    "Fire (Small)": {
+      "vol_min": 0.4,
+      "vol_max": 0.5,
+      "pitch_min": 0.7,
+      "pitch_max": 0.9,
+      "distance": 0,
+      "path": []
+    },
+    "Rha_Cave_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.1,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "wind/cave_wind1.ogg",
+        "wind/cave_wind2.ogg",
+        "wind/cave_wind3.ogg",
+        "wind/cave_wind4.ogg",
+        "wind/cave_wind5.ogg",
+        "wind/cave_wind6.ogg",
+        "wind/cave_wind7.ogg"
+      ]
+    },
+    "Rha_Cave_drops_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "cave/cave_water1.ogg",
+        "cave/cave_water2.ogg",
+        "cave/cave_water3.ogg",
+        "cave/cave_water4.ogg"
+      ]
+    },
+    "Rha_End_dragon": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "end/dragon1.ogg",
+        "end/dragon2.ogg",
+        "end/dragon3.ogg",
+        "end/dragon4.ogg",
+        "end/dragon5.ogg",
+        "end/dragon6.ogg"
+      ]
+    },
+    "Rha_High_Alt_wind": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 16,
+      "path": [
+        "wind/altitude_wind1.ogg",
+        "wind/altitude_wind2.ogg",
+        "wind/altitude_wind3.ogg",
+        "wind/altitude_wind4.ogg",
+        "wind/altitude_wind5.ogg",
+        "wind/altitude_wind6.ogg",
+        "wind/altitude_wind7.ogg"
+      ]
+    },
+    "Rha_Lake_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.3,
+      "distance": 0,
+      "path": [
+        "water/lake_1.ogg",
+        "water/lake_2.ogg",
+        "water/lake_3.ogg"
+      ]
+    },
+    "Rha_Nether_ambience": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 0,
+      "path": [
+        "nether/nether1.ogg",
+        "nether/nether2.ogg",
+        "nether/nether3.ogg",
+        "nether/nether4.ogg",
+        "nether/nether5.ogg"
+      ]
+    },
+    "Rha_Ocean": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "water/ocean1.ogg",
+        "water/ocean2.ogg",
+        "water/ocean3.ogg",
+        "water/ocean4.ogg",
+        "water/ocean5.ogg"
+      ]
+    },
+    "Rha_Rain_inside": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "rainnew/rain_in1.ogg",
+        "rainnew/rain_in2.ogg",
+        "rainnew/rain_in3.ogg",
+        "rainnew/rain_in4.ogg",
+        "rainnew/rain_in5.ogg",
+        "rainnew/rain_in6.ogg"
+      ]
+    },
+    "Rha_Rain_outside": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "rainnew/rain_out1.ogg",
+        "rainnew/rain_out2.ogg",
+        "rainnew/rain_out3.ogg",
+        "rainnew/rain_out4.ogg",
+        "rainnew/rain_out5.ogg",
+        "rainnew/rain_out6.ogg",
+        "rainnew/rain_out7.ogg"
+      ]
+    },
+    "Rha_Rain_tree": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "rainnew/rain_tree1.ogg",
+        "rainnew/rain_tree2.ogg",
+        "rainnew/rain_tree3.ogg",
+        "rainnew/rain_tree4.ogg",
+        "rainnew/rain_tree5.ogg",
+        "rainnew/rain_tree6.ogg"
+      ]
+    },
+    "Rha_Rain_window_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "rainnew/rain_window1.ogg",
+        "rainnew/rain_window2.ogg",
+        "rainnew/rain_window3.ogg",
+        "rainnew/rain_window4.ogg",
+        "rainnew/rain_window5.ogg",
+        "rainnew/rain_window6.ogg"
+      ]
+    },
+    "Rha_Thunderstorm_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.2,
+      "pitch_min": 0.7,
+      "pitch_max": 1.5,
+      "distance": 128,
+      "path": [
+        "thunderstorm/thunderstorm1.ogg",
+        "thunderstorm/thunderstorm2.ogg",
+        "thunderstorm/thunderstorm3.ogg",
+        "thunderstorm/thunderstorm4.ogg"
+      ]
+    },
+    "Rha_cave_sound": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "wind/cave_wind1.ogg",
+        "wind/cave_wind2.ogg",
+        "wind/cave_wind3.ogg",
+        "wind/cave_wind4.ogg",
+        "wind/cave_wind5.ogg",
+        "wind/cave_wind6.ogg",
+        "wind/cave_wind7.ogg"
+      ]
+    },
+    "Rha_cave_sound_faille_winds": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "wind/cave_wind1.ogg",
+        "wind/cave_wind2.ogg",
+        "wind/cave_wind3.ogg",
+        "wind/cave_wind4.ogg",
+        "wind/cave_wind5.ogg",
+        "wind/cave_wind6.ogg",
+        "wind/cave_wind7.ogg"
+      ]
+    },
+    "Rha_desert_jour": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/desert/desert_wind1.ogg",
+        "biomes/desert/desert_wind2.ogg",
+        "biomes/desert/desert_wind3.ogg",
+        "biomes/desert/desert_wind4.ogg",
+        "biomes/desert/desert_wind5.ogg",
+        "biomes/desert/desert_wind6.ogg"
+      ]
+    },
+    "Rha_desert_jour_vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.1,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "biomes/desert/desert_wind1.ogg",
+        "biomes/desert/desert_wind2.ogg",
+        "biomes/desert/desert_wind3.ogg",
+        "biomes/desert/desert_wind4.ogg",
+        "biomes/desert/desert_wind5.ogg",
+        "biomes/desert/desert_wind6.ogg"
+      ]
+    },
+    "Rha_desert_nuit": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/desert/desert_night.ogg",
+        "biomes/desert/desert_night1.ogg",
+        "biomes/desert/desert_night2.ogg",
+        "biomes/desert/desert_night3.ogg",
+        "biomes/desert/desert_night4.ogg",
+        "biomes/desert/desert_night5.ogg",
+        "biomes/desert/desert_night6.ogg"
+      ]
+    },
+    "Rha_foret_aube": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_morning1.ogg",
+        "biomes/forest/forest_morning2.ogg",
+        "biomes/forest/forest_morning3.ogg",
+        "biomes/forest/forest_morning4.ogg"
+      ]
+    },
+    "Rha_foret_crepuscule": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_morning1.ogg",
+        "biomes/forest/forest_morning2.ogg",
+        "biomes/forest/forest_morning3.ogg",
+        "biomes/forest/forest_morning4.ogg"
+      ]
+    },
+    "Rha_foret_jour_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_day1.ogg",
+        "biomes/forest/forest_day2.ogg",
+        "biomes/forest/forest_day3.ogg",
+        "biomes/forest/forest_day4.ogg",
+        "biomes/forest/forest_day5.ogg",
+        "biomes/forest/forest_day6.ogg"
+      ]
+    },
+    "Rha_foret_jour_vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "wind/calm_wind1.ogg",
+        "wind/calm_wind2.ogg",
+        "wind/calm_wind3.ogg",
+        "wind/calm_wind4.ogg"
+      ]
+    },
+    "Rha_foret_nuit_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_night1.ogg",
+        "biomes/forest/forest_night2.ogg",
+        "biomes/forest/forest_night3.ogg",
+        "biomes/forest/forest_night4.ogg"
+      ]
+    },
+    "Rha_furnace_on": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "furnace/furnace1.ogg",
+        "furnace/furnace2.ogg",
+        "furnace/furnace3.ogg"
+      ]
+    },
+    "Rha_jungle_jour_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/jungle/jungle_day1.ogg",
+        "biomes/jungle/jungle_day2.ogg",
+        "biomes/jungle/jungle_day3.ogg",
+        "biomes/jungle/jungle_day4.ogg",
+        "biomes/jungle/jungle_day5.ogg",
+        "biomes/jungle/jungle_day6.ogg"
+      ]
+    },
+    "Rha_jungle_nuit_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/jungle/jungle_night1.ogg",
+        "biomes/jungle/jungle_night2.ogg",
+        "biomes/jungle/jungle_night3.ogg",
+        "biomes/jungle/jungle_night4.ogg",
+        "biomes/jungle/jungle_night5.ogg"
+      ]
+    },
+    "Rha_lava_in": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "lava/lava1.ogg",
+        "lava/lava2.ogg",
+        "lava/lava3.ogg",
+        "lava/lava4.ogg",
+        "lava/lava5.ogg"
+      ]
+    },
+    "Rha_lave_out": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "lava/lava1.ogg",
+        "lava/lava2.ogg",
+        "lava/lava3.ogg",
+        "lava/lava4.ogg",
+        "lava/lava5.ogg"
+      ]
+    },
+    "Rha_marais_jour": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 48,
+      "path": [
+        "biomes/swamp/swamp_day1.ogg",
+        "biomes/swamp/swamp_day2.ogg",
+        "biomes/swamp/swamp_day3.ogg",
+        "biomes/swamp/swamp_day4.ogg"
+      ]
+    },
+    "Rha_marais_jour_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_day1.ogg",
+        "biomes/forest/forest_day2.ogg",
+        "biomes/forest/forest_day3.ogg",
+        "biomes/forest/forest_day4.ogg",
+        "biomes/forest/forest_day5.ogg",
+        "biomes/forest/forest_day6.ogg"
+      ]
+    },
+    "Rha_marais_nuit": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "biomes/swamp/swarm_night1.ogg",
+        "biomes/swamp/swarm_night2.ogg",
+        "biomes/swamp/swarm_night3.ogg",
+        "biomes/swamp/swarm_night4.ogg"
+      ]
+    },
+    "Rha_marais_nuit_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_night1.ogg",
+        "biomes/forest/forest_night2.ogg",
+        "biomes/forest/forest_night3.ogg",
+        "biomes/forest/forest_night4.ogg"
+      ]
+    },
+    "Rha_neige_ICE_craque": {
+      "vol_min": 0.2,
+      "vol_max": 0.4,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 48,
+      "path": [
+        "biomes/snow/ice_scrape1.ogg",
+        "biomes/snow/ice_scrape2.ogg",
+        "biomes/snow/ice_scrape3.ogg",
+        "biomes/snow/ice_scrape4.ogg"
+      ]
+    },
+    "Rha_neige_foret_jour_amb": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_day1.ogg",
+        "biomes/forest/forest_day2.ogg",
+        "biomes/forest/forest_day3.ogg",
+        "biomes/forest/forest_day4.ogg",
+        "biomes/forest/forest_day5.ogg",
+        "biomes/forest/forest_day6.ogg"
+      ]
+    },
+    "Rha_neige_foret_jour_wind": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "wind/snow_wind1.ogg",
+        "wind/snow_wind2.ogg",
+        "wind/snow_wind3.ogg",
+        "wind/snow_wind4.ogg",
+        "wind/snow_wind5.ogg",
+        "wind/snow_wind6.ogg",
+        "wind/snow_wind7.ogg"
+      ]
+    },
+    "Rha_neige_loup": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 48,
+      "path": [
+        "biomes/snow/wolf_1.ogg",
+        "biomes/snow/wolf_2.ogg"
+      ]
+    },
+    "Rha_neige_mount": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "wind/snow_wind1.ogg",
+        "wind/snow_wind2.ogg",
+        "wind/snow_wind3.ogg",
+        "wind/snow_wind4.ogg",
+        "wind/snow_wind5.ogg",
+        "wind/snow_wind6.ogg",
+        "wind/snow_wind7.ogg"
+      ]
+    },
+    "Rha_neige_nuit_chouette": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 48,
+      "path": [
+        "biomes/snow/howl1.ogg",
+        "biomes/snow/howl2.ogg",
+        "biomes/snow/howl3.ogg",
+        "biomes/snow/howl4.ogg"
+      ]
+    },
+    "Rha_neige_nuit_vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.1,
+      "pitch_min": 0.7,
+      "pitch_max": 0.9,
+      "distance": 0,
+      "path": [
+        "wind/snow_wind1.ogg",
+        "wind/snow_wind2.ogg",
+        "wind/snow_wind3.ogg",
+        "wind/snow_wind4.ogg",
+        "wind/snow_wind5.ogg",
+        "wind/snow_wind6.ogg",
+        "wind/snow_wind7.ogg"
+      ]
+    },
+    "Rha_neige_plaine_jour_wind": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "wind/snow_wind1.ogg",
+        "wind/snow_wind2.ogg",
+        "wind/snow_wind3.ogg",
+        "wind/snow_wind4.ogg",
+        "wind/snow_wind5.ogg",
+        "wind/snow_wind6.ogg",
+        "wind/snow_wind7.ogg"
+      ]
+    },
+    "Rha_plaine_crep": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_night1.ogg",
+        "biomes/forest/forest_night2.ogg",
+        "biomes/forest/forest_night3.ogg",
+        "biomes/forest/forest_night4.ogg"
+      ]
+    },
+    "Rha_plaine_jour": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_morning1.ogg",
+        "biomes/forest/forest_morning2.ogg",
+        "biomes/forest/forest_morning3.ogg",
+        "biomes/forest/forest_morning4.ogg"
+      ]
+    },
+    "Rha_plaine_jour_vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 24,
+      "path": [
+        "wind/calm_wind1.ogg",
+        "wind/calm_wind2.ogg",
+        "wind/calm_wind3.ogg",
+        "wind/calm_wind4.ogg"
+      ]
+    },
+    "Rha_plaine_nuit": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "biomes/forest/forest_night1.ogg",
+        "biomes/forest/forest_night2.ogg",
+        "biomes/forest/forest_night3.ogg",
+        "biomes/forest/forest_night4.ogg"
+      ]
+    },
+    "Rha_rock_fall_nether": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.6,
+      "pitch_max": 0.9,
+      "distance": 32,
+      "path": []
+    },
+    "Rha_seaside": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 8,
+      "path": [
+        "water/lake_1.ogg",
+        "water/lake_2.ogg",
+        "water/lake_3.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {
+    "Rha_Ice_land": {
+      "entries": [
+        {
+          "sheet": "scan_large",
+          "index": "minecraft:snow_layer"
+        },
+        {
+          "sheet": "scan_large",
+          "index": "minecraft:ice"
+        }
+      ]
+    },
+    "Rha_dyn_Water": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:flowing_water"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:water"
+        }
+      ]
+    },
+    "Rha_dyn_lava_small": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:flowing_lava"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:lava"
+        }
+      ]
+    },
+    "Rha_dyn_rock": {
+      "entries": [
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:stone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:cobblestone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:mossy_cobblestone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:air"
+        }
+      ]
+    },
+    "Rha_player_struct": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:cobblestone"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:planks"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:wool"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:gold_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:iron_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_slab"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:double_stone_slab"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brick_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:bookshelf"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:oak_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:diamond_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:sandstone"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:bed"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:wooden_door"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:crafting_table"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:iron_door"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:glass_pane"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_brick_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:cauldron"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:furnace"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brick_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:enchanting_table"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brewing_stand"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:glass"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:torch"
+        }
+      ]
+    },
+    "Rha_seaside": {
+      "entries": [
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:grass"
+        },
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:sand"
+        },
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:stone"
+        }
+      ]
+    },
+    "Rha_vitre": {
+      "entries": [
+        {
+          "sheet": "block_contact",
+          "index": "minecraft:glass"
+        },
+        {
+          "sheet": "block_contact",
+          "index": "minecraft:glass_pane"
+        }
+      ]
+    }
+  }
+}

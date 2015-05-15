@@ -1,0 +1,24 @@
+{
+  "expansions": [
+    {
+      "uniquename": "rhapsodia_interact_enviornments",
+      "friendlyname": "Rhapsodia: Interact Environments",
+      "pointer": "expansions/rhapsodia_interact_enviornments.json"
+    },
+    {
+      "uniquename": "rhapsodia_interact_weapons",
+      "friendlyname": "Rhapsodia: Interact Weapons",
+      "pointer": "expansions/rhapsodia_interact_weapons.json"
+    },
+    {
+      "uniquename": "rhapsodia_world",
+      "friendlyname": "Rhapsodia: World",
+      "pointer": "expansions/rhapsodia_world.json"
+    },
+    {
+      "uniquename": "rhapsodia_music_manager",
+      "friendlyname": "Rhapsodia: Music Manager",
+      "pointer": "expansions/rhapsodia_music_manager.json"
+    }
+  ]
+}

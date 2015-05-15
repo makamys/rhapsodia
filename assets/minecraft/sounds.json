@@ -1,0 +1,646 @@
+{
+  "biomes.jungle.jungle_night": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/jungle/jungle_night2",
+      "biomes/jungle/jungle_night1",
+      "biomes/jungle/jungle_night4",
+      "biomes/jungle/jungle_night5",
+      "biomes/jungle/jungle_night3"
+    ]
+  },
+  "biomes.jungle.jungle_day": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/jungle/jungle_day3",
+      "biomes/jungle/jungle_day1",
+      "biomes/jungle/jungle_day5",
+      "biomes/jungle/jungle_day2",
+      "biomes/jungle/jungle_day4",
+      "biomes/jungle/jungle_day6"
+    ]
+  },
+  "biomes.jungle.jungle_morning": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/jungle/jungle_morning2",
+      "biomes/jungle/jungle_morning3",
+      "biomes/jungle/jungle_morning1",
+      "biomes/jungle/jungle_morning4"
+    ]
+  },
+  "biomes.swamp.swarm_night": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/swamp/swarm_night3",
+      "biomes/swamp/swarm_night2",
+      "biomes/swamp/swarm_night1",
+      "biomes/swamp/swarm_night4"
+    ]
+  },
+  "biomes.swamp.swamp_day": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/swamp/swamp_day1",
+      "biomes/swamp/swamp_day4",
+      "biomes/swamp/swamp_day2",
+      "biomes/swamp/swamp_day3"
+    ]
+  },
+  "biomes.desert.desert_wind": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/desert/desert_wind3",
+      "biomes/desert/desert_wind4",
+      "biomes/desert/desert_wind6",
+      "biomes/desert/desert_wind2",
+      "biomes/desert/desert_wind5",
+      "biomes/desert/desert_wind1"
+    ]
+  },
+  "biomes.desert.desert_night": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/desert/desert_night2",
+      "biomes/desert/desert_night1",
+      "biomes/desert/desert_night5",
+      "biomes/desert/desert_night4",
+      "biomes/desert/desert_night6",
+      "biomes/desert/desert_night",
+      "biomes/desert/desert_night3"
+    ]
+  },
+  "biomes.snow.ice_scrape": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/snow/ice_scrape1",
+      "biomes/snow/ice_scrape4",
+      "biomes/snow/ice_scrape3",
+      "biomes/snow/ice_scrape2"
+    ]
+  },
+  "biomes.snow.wolf_": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/snow/wolf_2",
+      "biomes/snow/wolf_1"
+    ]
+  },
+  "biomes.snow.howl": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/snow/howl3",
+      "biomes/snow/howl2",
+      "biomes/snow/howl1",
+      "biomes/snow/howl4"
+    ]
+  },
+  "biomes.forest.forest_night": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/forest/forest_night1",
+      "biomes/forest/forest_night2",
+      "biomes/forest/forest_night4",
+      "biomes/forest/forest_night3"
+    ]
+  },
+  "biomes.forest.forest_day": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/forest/forest_day1",
+      "biomes/forest/forest_day3",
+      "biomes/forest/forest_day6",
+      "biomes/forest/forest_day4",
+      "biomes/forest/forest_day2",
+      "biomes/forest/forest_day5"
+    ]
+  },
+  "biomes.forest.forest_morning": {
+    "category": "ambient",
+    "sounds": [
+      "biomes/forest/forest_morning4",
+      "biomes/forest/forest_morning3",
+      "biomes/forest/forest_morning2",
+      "biomes/forest/forest_morning1"
+    ]
+  },
+  "streaming.": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "streaming/13",
+        "stream": true
+      }
+    ]
+  },
+  "streaming.cat": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "streaming/cat",
+        "stream": true
+      }
+    ]
+  },
+  "lava.lava": {
+    "category": "ambient",
+    "sounds": [
+      "lava/lava4",
+      "lava/lava3",
+      "lava/lava5",
+      "lava/lava2",
+      "lava/lava1"
+    ]
+  },
+  "furnace.furnace": {
+    "category": "ambient",
+    "sounds": [
+      "furnace/furnace1",
+      "furnace/furnace2",
+      "furnace/furnace3"
+    ]
+  },
+  "cave.cave_water": {
+    "category": "ambient",
+    "sounds": [
+      "cave/cave_water1",
+      "cave/cave_water4",
+      "cave/cave_water2",
+      "cave/cave_water3"
+    ]
+  },
+  "note.bass": {
+    "category": "ambient",
+    "sounds": [
+      "note/bass"
+    ]
+  },
+  "note.harp": {
+    "category": "ambient",
+    "sounds": [
+      "note/harp"
+    ]
+  },
+  "note.bassattack": {
+    "category": "ambient",
+    "sounds": [
+      "note/bassattack"
+    ]
+  },
+  "note.bd": {
+    "category": "ambient",
+    "sounds": [
+      "note/bd"
+    ]
+  },
+  "note.hat": {
+    "category": "ambient",
+    "sounds": [
+      "note/hat"
+    ]
+  },
+  "weapon.sword_hit": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/sword_hit2",
+      "weapon/sword_hit3",
+      "weapon/sword_hit1"
+    ]
+  },
+  "weapon.bow_stretch": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/bow_stretch"
+    ]
+  },
+  "weapon.whoosh": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/whoosh2",
+      "weapon/whoosh1",
+      "weapon/whoosh4",
+      "weapon/whoosh5",
+      "weapon/whoosh3"
+    ]
+  },
+  "weapon.item_select": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/item_select"
+    ]
+  },
+  "weapon.food_draw": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/food_draw"
+    ]
+  },
+  "weapon.bow_draw": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/bow_draw"
+    ]
+  },
+  "weapon.sword_select": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/sword_select"
+    ]
+  },
+  "weapon.tool_draw": {
+    "category": "ambient",
+    "sounds": [
+      "weapon/tool_draw"
+    ]
+  },
+  "wind.calm_wind": {
+    "category": "ambient",
+    "sounds": [
+      "wind/calm_wind3",
+      "wind/calm_wind2",
+      "wind/calm_wind1",
+      "wind/calm_wind4"
+    ]
+  },
+  "wind.cave_wind": {
+    "category": "ambient",
+    "sounds": [
+      "wind/cave_wind3",
+      "wind/cave_wind4",
+      "wind/cave_wind7",
+      "wind/cave_wind1",
+      "wind/cave_wind2",
+      "wind/cave_wind6",
+      "wind/cave_wind5"
+    ]
+  },
+  "wind.altitude_wind": {
+    "category": "ambient",
+    "sounds": [
+      "wind/altitude_wind4",
+      "wind/altitude_wind6",
+      "wind/altitude_wind1",
+      "wind/altitude_wind2",
+      "wind/altitude_wind7",
+      "wind/altitude_wind5",
+      "wind/altitude_wind3"
+    ]
+  },
+  "wind.snow_wind": {
+    "category": "ambient",
+    "sounds": [
+      "wind/snow_wind1",
+      "wind/snow_wind6",
+      "wind/snow_wind5",
+      "wind/snow_wind7",
+      "wind/snow_wind4",
+      "wind/snow_wind2",
+      "wind/snow_wind3"
+    ]
+  },
+  "wind.falling_wind": {
+    "category": "ambient",
+    "sounds": [
+      "wind/falling_wind"
+    ]
+  },
+  "music.rhapsodia_whistle_theme": {
+    "category": "ambient",
+    "sounds": [
+      "music/rhapsodia_whistle_theme"
+    ]
+  },
+  "music.rhapsodia_desert_melody": {
+    "category": "ambient",
+    "sounds": [
+      "music/rhapsodia_desert_melody"
+    ]
+  },
+  "music.nuit": {
+    "category": "ambient",
+    "sounds": [
+      "music/nuit"
+    ]
+  },
+  "music.newday": {
+    "category": "ambient",
+    "sounds": [
+      "music/newday"
+    ]
+  },
+  "music.jungleworld_roaming": {
+    "category": "ambient",
+    "sounds": [
+      "music/jungleworld_roaming"
+    ]
+  },
+  "music.rhapsodia_main_theme": {
+    "category": "ambient",
+    "sounds": [
+      "music/rhapsodia_main_theme"
+    ]
+  },
+  "music.snowworld_aube": {
+    "category": "ambient",
+    "sounds": [
+      "music/snowworld_aube"
+    ]
+  },
+  "music.rhapsodia_flute_theme": {
+    "category": "ambient",
+    "sounds": [
+      "music/rhapsodia_flute_theme"
+    ]
+  },
+  "music.rhapsodia_death_music": {
+    "category": "ambient",
+    "sounds": [
+      "music/rhapsodia_death_music"
+    ]
+  },
+  "thunderstorm.thunderstorm": {
+    "category": "ambient",
+    "sounds": [
+      "thunderstorm/thunderstorm2",
+      "thunderstorm/thunderstorm4",
+      "thunderstorm/thunderstorm1",
+      "thunderstorm/thunderstorm3"
+    ]
+  },
+  "end.dragon": {
+    "category": "ambient",
+    "sounds": [
+      "end/dragon3",
+      "end/dragon1",
+      "end/dragon2",
+      "end/dragon4",
+      "end/dragon5",
+      "end/dragon6"
+    ]
+  },
+  "end.ender_loop": {
+    "category": "ambient",
+    "sounds": [
+      "end/ender_loop"
+    ]
+  },
+  "damage.hbeat_med": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hbeat_med"
+    ]
+  },
+  "damage.hurtflesh": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hurtflesh3",
+      "damage/hurtflesh1",
+      "damage/hurtflesh2"
+    ]
+  },
+  "damage.contact_fire": {
+    "category": "ambient",
+    "sounds": [
+      "damage/contact_fire"
+    ]
+  },
+  "damage.hbeat_slow": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hbeat_slow"
+    ]
+  },
+  "damage.hunger_mega": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hunger_mega1",
+      "damage/hunger_mega2"
+    ]
+  },
+  "damage.hunger": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hunger3",
+      "damage/hunger4",
+      "damage/hunger2",
+      "damage/hunger5",
+      "damage/hunger1"
+    ]
+  },
+  "damage.hbeat_fast": {
+    "category": "ambient",
+    "sounds": [
+      "damage/hbeat_fast"
+    ]
+  },
+  "water.ocean": {
+    "category": "ambient",
+    "sounds": [
+      "water/ocean4",
+      "water/ocean3",
+      "water/ocean5",
+      "water/ocean1",
+      "water/ocean2"
+    ]
+  },
+  "water.under_bubble": {
+    "category": "ambient",
+    "sounds": [
+      "water/under_bubble4",
+      "water/under_bubble3",
+      "water/under_bubble",
+      "water/under_bubble2"
+    ]
+  },
+  "water.noyade": {
+    "category": "ambient",
+    "sounds": [
+      "water/noyade2",
+      "water/noyade1",
+      "water/noyade3"
+    ]
+  },
+  "water.player_splash": {
+    "category": "ambient",
+    "sounds": [
+      "water/player_splash"
+    ]
+  },
+  "water.player_outofwater": {
+    "category": "ambient",
+    "sounds": [
+      "water/player_outofwater"
+    ]
+  },
+  "water.lake_": {
+    "category": "ambient",
+    "sounds": [
+      "water/lake_2",
+      "water/lake_3",
+      "water/lake_1"
+    ]
+  },
+  "water.loop_underwater": {
+    "category": "weather",
+    "sounds": [
+      "water/loop_underwater"
+    ]
+  },
+  "water.water_splash": {
+    "category": "ambient",
+    "sounds": [
+      "water/water_splash"
+    ]
+  },
+  "rainnew.rain_window": {
+    "category": "ambient",
+    "sounds": [
+      "rainnew/rain_window6",
+      "rainnew/rain_window4",
+      "rainnew/rain_window1",
+      "rainnew/rain_window2",
+      "rainnew/rain_window3",
+      "rainnew/rain_window5"
+    ]
+  },
+  "rainnew.rain_in": {
+    "category": "ambient",
+    "sounds": [
+      "rainnew/rain_in4",
+      "rainnew/rain_in6",
+      "rainnew/rain_in5",
+      "rainnew/rain_in2",
+      "rainnew/rain_in1",
+      "rainnew/rain_in3"
+    ]
+  },
+  "rainnew.rain_tree": {
+    "category": "ambient",
+    "sounds": [
+      "rainnew/rain_tree6",
+      "rainnew/rain_tree3",
+      "rainnew/rain_tree4",
+      "rainnew/rain_tree1",
+      "rainnew/rain_tree5",
+      "rainnew/rain_tree2"
+    ]
+  },
+  "rainnew.rain_new": {
+    "category": "ambient",
+    "sounds": [
+      "rainnew/rain_new1"
+    ]
+  },
+  "rainnew.rain_out": {
+    "category": "ambient",
+    "sounds": [
+      "rainnew/rain_out6",
+      "rainnew/rain_out5",
+      "rainnew/rain_out2",
+      "rainnew/rain_out3",
+      "rainnew/rain_out7",
+      "rainnew/rain_out4",
+      "rainnew/rain_out1"
+    ]
+  },
+  "random.explode": {
+    "category": "ambient",
+    "sounds": [
+      "random/explode4",
+      "random/explode1",
+      "random/explode3",
+      "random/explode2"
+    ]
+  },
+  "random.bowhit": {
+    "category": "ambient",
+    "sounds": [
+      "random/bowhit4",
+      "random/bowhit1",
+      "random/bowhit3",
+      "random/bowhit2"
+    ]
+  },
+  "random.orb": {
+    "category": "ambient",
+    "sounds": [
+      "random/orb"
+    ]
+  },
+  "random.glass": {
+    "category": "ambient",
+    "sounds": [
+      "random/glass1",
+      "random/glass3",
+      "random/glass2"
+    ]
+  },
+  "random.drink": {
+    "category": "ambient",
+    "sounds": [
+      "random/drink"
+    ]
+  },
+  "random.bow": {
+    "category": "ambient",
+    "sounds": [
+      "random/bow"
+    ]
+  },
+  "random.click": {
+    "category": "ambient",
+    "sounds": [
+      "random/click"
+    ]
+  },
+  "random.door_open": {
+    "category": "ambient",
+    "sounds": [
+      "random/door_open"
+    ]
+  },
+  "random.door_close": {
+    "category": "ambient",
+    "sounds": [
+      "random/door_close"
+    ]
+  },
+  "nether.nether": {
+    "category": "ambient",
+    "sounds": [
+      "nether/nether2",
+      "nether/nether4",
+      "nether/nether3",
+      "nether/nether5",
+      "nether/nether1"
+    ]
+  },
+  "mob.chicken": {
+    "category": "ambient",
+    "sounds": [
+      "mob/chicken1",
+      "mob/chicken3",
+      "mob/chicken2"
+    ]
+  },
+  "mob.chickenhurt": {
+    "category": "ambient",
+    "sounds": [
+      "mob/chickenhurt2",
+      "mob/chickenhurt3",
+      "mob/chickenhurt1"
+    ]
+  },
+  "mob.pig": {
+    "category": "ambient",
+    "sounds": [
+      "mob/pig1"
+    ]
+  },
+  "mob.pighit": {
+    "category": "ambient",
+    "sounds": [
+      "mob/pighit1"
+    ]
+  }
+}
