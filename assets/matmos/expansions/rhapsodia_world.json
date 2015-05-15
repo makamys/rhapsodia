@@ -817,12 +817,6 @@
         "Rha_rain_can_reach"
       ]
     },
-    "Rha_rain_on": {
-      "yes": [
-        "Rha_is_raining"
-      ],
-      "no": []
-    },
     "Rha_rain_outside": {
       "yes": [
         "Rha_is_raining",
@@ -992,8 +986,8 @@
         "Rha_incendie_small"
       ],
       "restrict": [],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1019,12 +1013,12 @@
         "Rha_indoor",
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1045,8 +1039,8 @@
       "restrict": [
         "Rha_Nether_cave"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1065,8 +1059,8 @@
         "Rha_Nether_cave"
       ],
       "restrict": [],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1091,8 +1085,8 @@
         "Rha_player_is_outside",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1120,8 +1114,8 @@
         "Rha_player_inside_cave",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1150,8 +1144,8 @@
         "Rha_player_is_outside",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1172,8 +1166,8 @@
       "restrict": [
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1194,8 +1188,8 @@
       "restrict": [
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1223,8 +1217,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1255,8 +1249,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1283,8 +1277,8 @@
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1314,8 +1308,8 @@
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1342,8 +1336,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1373,8 +1367,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1394,8 +1388,8 @@
         "Rha_incendie_med"
       ],
       "restrict": [],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1420,15 +1414,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1456,15 +1450,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1489,15 +1483,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1525,15 +1519,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1557,15 +1551,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1592,15 +1586,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1625,14 +1619,14 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1660,14 +1654,14 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1692,15 +1686,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1728,15 +1722,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1757,8 +1751,8 @@
       "restrict": [
         "Rha_player_is_outside"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1780,12 +1774,12 @@
         "Rha_biome_jungle",
         "Rha_player_inside_cave",
         "Rha_player_is_outside",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1812,12 +1806,12 @@
         "Rha_indoor",
         "Rha_player_inside_cave",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1839,8 +1833,8 @@
         "Rha_player_is_in_end",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1863,13 +1857,13 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1896,13 +1890,13 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1925,12 +1919,12 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1955,8 +1949,8 @@
         "Rha_player_is_underwater",
         "Rha_snow_ice_scrape"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -1981,8 +1975,8 @@
         "Rha_player_is_underwater",
         "Rha_snow_ice_scrape"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2001,8 +1995,8 @@
         "Rha_Nether_lava"
       ],
       "restrict": [],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2021,8 +2015,8 @@
         "Rha_lava_surface"
       ],
       "restrict": [],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2048,13 +2042,13 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2083,13 +2077,13 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2116,15 +2110,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2154,15 +2148,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2189,15 +2183,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2227,15 +2221,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2261,15 +2255,15 @@
         "Rha_player_is_in_end",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2298,15 +2292,15 @@
         "Rha_player_inside_cave",
         "Rha_player_is_in_end",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 500 (demi aube cote jour)",
         "Time vrai de 11500 a 13000 (crepuscule)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2328,8 +2322,8 @@
         "Rha_player_is_in_end",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2359,8 +2353,8 @@
         "Rha_player_is_outside",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2390,8 +2384,8 @@
         "Rha_player_is_in_end",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 5.0,
+      "fadeout": 5.0,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2399,8 +2393,8 @@
           "event": "Rha_Rain_outside",
           "vol_mod": 1.0,
           "pitch_mod": 1.0,
-          "delay_min": 3.5,
-          "delay_max": 4.0,
+          "delay_min": 1.0,
+          "delay_max": 2.0,
           "delay_start": -1.0
         }
       ]
@@ -2420,17 +2414,17 @@
         "Rha_player_is_in_end",
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
-      "delay_fadein": 0.0,
-      "delay_fadeout": 0.0,
+      "fadein": 0.2,
+      "fadeout": 0.3,
+      "delay_fadein": 0.1,
+      "delay_fadeout": 0.1,
       "event": [
         {
           "event": "Rha_Rain_tree",
           "vol_mod": 1.0,
           "pitch_mod": 1.0,
-          "delay_min": 3.5,
-          "delay_max": 4.0,
+          "delay_min": 1.0,
+          "delay_max": 2.0,
           "delay_start": -1.0
         }
       ]
@@ -2451,8 +2445,8 @@
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2485,8 +2479,8 @@
         "Time vrai de 13000 a 23500 (nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2513,8 +2507,8 @@
         "Rha_player_is_underwater",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2544,8 +2538,8 @@
         "Rha_player_is_underwater",
         "Time vrai de 500 a 11500 (jour)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2572,8 +2566,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2611,8 +2605,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2647,8 +2641,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2678,8 +2672,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2700,8 +2694,8 @@
       "restrict": [
         "Rha_player_is_underwater"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2729,8 +2723,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2761,8 +2755,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2790,8 +2784,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2829,8 +2823,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2867,8 +2861,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2900,8 +2894,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2929,8 +2923,8 @@
         "Rha_player_is_underwater",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2985,8 +2979,8 @@
         "Rha_player_is_underwater",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3035,13 +3029,13 @@
         "Rha_player_inside_cave",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3069,13 +3063,13 @@
         "Rha_indoor",
         "Rha_player_inside_cave",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3104,8 +3098,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3137,8 +3131,8 @@
         "Time vrai de 12250 a 23500 (mi nuit)",
         "Time vrai de 23500 a 23999 (demi aube cote nuit)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3163,12 +3157,12 @@
         "Rha_player_inside_cave",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3196,12 +3190,12 @@
         "Rha_indoor",
         "Rha_player_inside_cave",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3226,12 +3220,12 @@
         "Rha_player_inside_cave",
         "Rha_player_is_outside",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3259,12 +3253,12 @@
         "Rha_indoor",
         "Rha_player_inside_cave",
         "Rha_player_is_underwater",
-        "Rha_rain_on",
+        "Rha_rain_outside",
         "Rha_seaside",
         "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3286,8 +3280,8 @@
         "Rha_player_inside_cave",
         "Rha_player_is_outside"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3309,8 +3303,8 @@
         "Rha_player_inside_cave",
         "Rha_player_is_inside"
       ],
-      "fadein": 0.0,
-      "fadeout": 0.0,
+      "fadein": 0.15,
+      "fadeout": 0.15,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -3443,9 +3437,9 @@
       ]
     },
     "Rha_Rain_inside": {
-      "vol_min": 1.0,
-      "vol_max": 1.0,
-      "pitch_min": 1.0,
+      "vol_min": 0.6,
+      "vol_max": 0.9,
+      "pitch_min": 0.85,
       "pitch_max": 1.0,
       "distance": 0,
       "path": [
@@ -3458,9 +3452,9 @@
       ]
     },
     "Rha_Rain_outside": {
-      "vol_min": 1.0,
+      "vol_min": 0.7,
       "vol_max": 1.0,
-      "pitch_min": 1.0,
+      "pitch_min": 0.9,
       "pitch_max": 1.0,
       "distance": 0,
       "path": [
@@ -3474,10 +3468,10 @@
       ]
     },
     "Rha_Rain_tree": {
-      "vol_min": 1.0,
-      "vol_max": 1.0,
-      "pitch_min": 1.0,
-      "pitch_max": 1.0,
+      "vol_min": 0.6,
+      "vol_max": 0.8,
+      "pitch_min": 0.9,
+      "pitch_max": 0.9,
       "distance": 0,
       "path": [
         "rainnew/rain_tree1.ogg",
