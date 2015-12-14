@@ -1,7 +1,8 @@
 ![](http://image.noelshack.com/fichiers/2012/32/1344800636-logo-aftereffect.png)
 
 # Rhapsodia music pack
-This mod is an extension for the «[MAtmos](https://github.com/dags-/MAtmos)» mod (created by @Hurricaaane and supported by @dags- later)
+This mod is an extension for the «[MAtmos](https://github.com/dags-/MAtmos)» mod 
+(created by [Hurricaaane](https://github.com/Hurricaaane) and supported by [dags-](https://github.com/dags-) later)
 
 ## Description
 Rhapsodia's goal is to enhance the audio experience in Minecraft. 
@@ -12,7 +13,7 @@ To use this mod you need to install:
 * Minecraft (>= 1.7.10)
 * Forge ([download here](https://github.com/dags-/))
 * LiteLoader ([download here](http://www.liteloader.com/download))
-* MAtmos ([download here](https://github.com/dags-/MAtmos/releases))
+* MAtmos ([download here](/MAtmos/releases))
 
 Then download Rhapsodia mod and move it to `resourcepacks/` folder.
 For this check latest `*.zip` archive on «[Releases](https://github.com/Orhideous/rhapsodia/releases)» tab.
