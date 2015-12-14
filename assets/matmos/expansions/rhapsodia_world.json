@@ -315,7 +315,7 @@
     "Rha_player_is_under_tree": {
       "sheet": "cb_column",
       "index": "thickness_overhead",
-      "symbol": "LESSER",
+      "symbol": "GREATER",
       "value": "0"
     },
     "Rha_player_is_underwater": {
@@ -437,6 +437,12 @@
       "index": "minecraft:water",
       "symbol": "GREATER",
       "value": "50"
+    },
+    "Rha_player_is_wet": {
+      "sheet": "ply_general",
+      "index": "wet",
+      "symbol": "EQUAL",
+      "value": "1"
     }
   },
   "set": {
@@ -770,7 +776,7 @@
     },
     "Rha_player_is_outside": {
       "yes": [
-        "Rha_rain_can_reach"
+        "Rha_player_can_see_sky"
       ],
       "no": [
         "Sunlight lower than 10/15"
@@ -820,7 +826,7 @@
     "Rha_rain_outside": {
       "yes": [
         "Rha_is_raining",
-        "Rha_rain_can_reach"
+        "Rha_player_is_wet"
       ],
       "no": [
         "Rha_player_in_Nether"
@@ -947,6 +953,19 @@
         "ZZZ DEBUG TRUE"
       ],
       "no": []
+    },
+    "Rha_rain_player_under_tree": {
+      "yes": [
+        "Rha_detect_feuille_sup_3",
+        "Rha_detect_woodlog_sup_3",
+        "Rha_is_raining",
+        "Rha_player_is_under_tree"
+      ],
+      "no": [
+        "Rha_player_can_see_sky",
+        "Rha_player_is_wet",
+        "Rha_rain_can_reach"
+      ]
     }
   },
   "machine": {
@@ -2384,8 +2403,8 @@
         "Rha_player_is_in_end",
         "Rha_player_is_underwater"
       ],
-      "fadein": 5.0,
-      "fadeout": 5.0,
+      "fadein": 0.0,
+      "fadeout": 1.5,
       "delay_fadein": 0.0,
       "delay_fadeout": 0.0,
       "event": [
@@ -2401,7 +2420,7 @@
     },
     "Rha_rain_under_tree": {
       "allow": [
-        "Rha_rain_protected_by_tree"
+        "Rha_rain_player_under_tree"
       ],
       "restrict": [
         "Rha_biome_desert",
@@ -2415,9 +2434,9 @@
         "Rha_player_is_underwater"
       ],
       "fadein": 0.2,
-      "fadeout": 0.3,
-      "delay_fadein": 0.1,
-      "delay_fadeout": 0.1,
+      "fadeout": 0.2,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
       "event": [
         {
           "event": "Rha_Rain_tree",
@@ -2426,6 +2445,14 @@
           "delay_min": 1.0,
           "delay_max": 2.0,
           "delay_start": -1.0
+        },
+        {
+          "event": "Rha_Rain_outside",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 1.0,
+          "delay_max": 2.0,
+          "delay_start": -0.7
         }
       ]
     },
