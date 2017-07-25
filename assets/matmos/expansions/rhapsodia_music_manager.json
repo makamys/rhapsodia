@@ -162,11 +162,6 @@
       "symbol": "GREATER",
       "value": "1"
     },
-    "Jungle_C1": {
-      "key": "0",
-      "symbol": "NOT_EQUAL",
-      "value": "0"
-    },
     "Light_is_max": {
       "sheet": "cb_light",
       "index": "sky",
