@@ -5,5 +5,7 @@
     "name": "Rhapsodia",
     "author": "Lzn02",
     "website": "http://twitter.com/Sarys"
-  }
+  },
+  "version"    : "0.6.1",
+	"updatejson": "https://github.com/makamys/rhapsodia/updatejson/update-rhapsodia.json"
 }
