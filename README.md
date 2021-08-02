@@ -8,6 +8,9 @@ This mod is an extension for the «[MAtmos](https://github.com/dags-/MAtmos)» m
 Rhapsodia's goal is to enhance the audio experience in Minecraft. 
 So, now the rain looks like rain, thunder is thundering hard, or you can drink your potion without sounding like your grand-ma while she eats her soup.
 
+## Demo video
+[![](http://img.youtube.com/vi/4_6xS86hcaI/0.jpg)](https://www.youtube.com/watch?v=4_6xS86hcaI)
+
 ## Installation
 To use this mod you need to install:
 * Minecraft (>= 1.7.10)
