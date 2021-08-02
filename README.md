@@ -24,7 +24,7 @@ For this check latest `*.zip` archive on «[Releases](https://github.com/Orhideo
 * **ENJOY!**
 
 ## Author
-**[Lzn02](http://www.minecraftforum.net/members/Lzn02/)**
+**[Lzn02](http://www.minecraftforum.net/members/Lzn02/)** (now known as [Sarys](https://lnk.bio/sarys))
 
 ## Links
 * [Author's Thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1441735-rhapsodia-matmos-expansion-1-4-2-beta)
