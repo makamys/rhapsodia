@@ -1,8 +1,6 @@
-![](http://image.noelshack.com/fichiers/2012/32/1344800636-logo-aftereffect.png)
+[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/rhapsodia/releases)
 
 # Rhapsodia music pack
-This mod is an extension for the «[MAtmos](https://github.com/dags-/MAtmos)» mod 
-(created by [Hurricaaane](https://github.com/Hurricaaane) and supported by [dags-](https://github.com/dags-) later)
 
 ## Description
 Rhapsodia's goal is to enhance the audio experience in Minecraft. 
@@ -12,14 +10,10 @@ So, now the rain looks like rain, thunder is thundering hard, or you can drink y
 [![](http://img.youtube.com/vi/4_6xS86hcaI/0.jpg)](https://www.youtube.com/watch?v=4_6xS86hcaI)
 
 ## Installation
-To use this mod you need to install:
-* Minecraft (>= 1.7.10)
-* Forge ([download here](https://github.com/dags-/))
-* LiteLoader ([download here](http://www.liteloader.com/download))
-* MAtmos ([download here](/MAtmos/releases))
+To use this mod you need to install [MAtmos](https://github.com/makamys/MAtmos).
 
-Then download Rhapsodia mod and move it to `resourcepacks/` folder.
-For this check latest `*.zip` archive on «[Releases](https://github.com/Orhideous/rhapsodia/releases)» tab.
+Then download the Rhapsodia mod and move it to the `resourcepacks/` folder.
+For this check latest `*.zip` archive on the [Releases](https://github.com/makamys/rhapsodia/releases) tab.
 
 ## Usage
 * Enable «Rhapsodia» resourcepack
