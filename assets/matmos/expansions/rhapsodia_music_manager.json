@@ -561,7 +561,7 @@
         "player_in_Ender"
       ],
       "fadein": 1.0,
-      "fadeout": 0.0,
+      "fadeout": 3.0,
       "delay_fadein": 0.0,
       "delay_fadeout": 43.0,
       "stream": {
