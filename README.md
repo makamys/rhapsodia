@@ -1,4 +1,4 @@
-[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/rhapsodia/releases)
+[![releases](https://img.shields.io/badge/-⬇%20releases-brightgreen)](https://github.com/makamys/rhapsodia/releases)
 
 # Rhapsodia music pack
 
