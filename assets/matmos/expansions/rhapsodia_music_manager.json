@@ -287,7 +287,7 @@
       "symbol": "EQUAL",
       "value": "1"
     },
-    "player_in_ender": {
+    "player_in_Ender": {
       "sheet": "scan_large",
       "key": "121",
       "symbol": "GREATER",
@@ -373,7 +373,7 @@
     }
   },
   "set": {
-    "Desert_Mus_a": {
+    "Desert_Mus_A": {
       "yes": [
         "Time_sup_5000",
         "00lzn_sandstone"
@@ -388,7 +388,7 @@
     },
     "Jammer_day_snow": {
       "yes": [
-        "time_sup_7500"
+        "Time_sup_7500"
       ],
       "no": []
     },
@@ -400,7 +400,7 @@
     },
     "Jammer_zik_nuit_A": {
       "yes": [
-        "time_sup_15000"
+        "Time_sup_15000"
       ],
       "no": []
     },
@@ -438,15 +438,15 @@
       ],
       "no": []
     },
-    "Music_day_a": {
+    "Music_day_A": {
       "yes": [
         "time_sup_22500"
       ],
       "no": []
     },
-    "Music_day_b": {
+    "Music_day_B": {
       "yes": [
-        "time_is_22500"
+        "Time_is_22500"
       ],
       "no": []
     },
@@ -483,23 +483,23 @@
         "00lzn_joueur_nether"
       ]
     },
-    "Music_nighta": {
+    "Music_night_A": {
       "yes": [
-        "time_sup_5000"
+        "Time_sup_5000"
       ],
       "no": [
         "Time_sup_15000"
       ]
     },
-    "Music_nightb": {
+    "Music_night_B": {
       "no": [
         "Time_inf_12500"
       ],
       "yes": []
     },
-    "Player_in_ender": {
+    "player_in_Ender": {
       "yes": [
-        "player_in_ender"
+        "player_in_Ender"
       ],
       "no": []
     },
@@ -517,7 +517,7 @@
     },
     "player_death": {
       "yes": [
-        "player_death"
+        "Player_death"
       ],
       "no": []
     }
@@ -553,12 +553,12 @@
     },
     "Rhapsodia_desert_day": {
       "allow": [
-        "DEserT_Mus_A"
+        "Desert_Mus_A"
       ],
       "restrict": [
         "Jammer_Nether",
         "Jammer_day_snow",
-        "Player_in_ender"
+        "player_in_Ender"
       ],
       "fadein": 1.0,
       "fadeout": 0.0,
@@ -574,7 +574,7 @@
     },
     "Rhapsodia_forest_day": {
       "allow": [
-        "music_day_forest"
+        "Music_day_forest"
       ],
       "restrict": [
         "Jammer_Nether",
@@ -596,12 +596,12 @@
     },
     "Rhapsodia_jungle_day": {
       "allow": [
-        "music_day_jungle"
+        "Music_day_jungle"
       ],
       "restrict": [
         "Jammer_Nether",
         "Jammer_day_snow",
-        "Player_in_ender"
+        "player_in_Ender"
       ],
       "fadein": 3.0,
       "fadeout": 3.0,
@@ -617,12 +617,12 @@
     },
     "Rhapsodia_snow_dAy": {
       "allow": [
-        "musiC_day_Snow"
+        "Music_day_snow"
       ],
       "restrict": [
         "Jammer_Nether",
         "Jammer_day_snow",
-        "Player_in_ender"
+        "player_in_Ender"
       ],
       "fadein": 0.0,
       "fadeout": 3.0,
@@ -644,7 +644,7 @@
       "restrict": [
         "Jammer_Nether",
         "Jammer_zik_aube_A",
-        "Player_in_ender"
+        "player_in_Ender"
       ],
       "fadein": 0.5,
       "fadeout": 3.0,
@@ -660,8 +660,8 @@
     },
     "Rhapsodia_newnigHt": {
       "allow": [
-        "Music_nightA",
-        "Music_nightB"
+        "Music_night_A",
+        "Music_night_B"
       ],
       "restrict": [
         "Jammer_Nether",
