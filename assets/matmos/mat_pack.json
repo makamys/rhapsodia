@@ -7,5 +7,5 @@
     "website": "http://twitter.com/Sarys"
   },
   "version"    : "0.6.1",
-	"updatejson": "https://github.com/makamys/rhapsodia/updatejson/update-rhapsodia.json"
+	"updatejson": "https://raw.githubusercontent.com/makamys/rhapsodia/master/updatejson/update-rhapsodia.json"
 }
