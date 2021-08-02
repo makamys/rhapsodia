@@ -2,25 +2,25 @@
   "condition": {
     "00lzn_air_40": {
       "sheet": "scan_small_p1k",
-      "key": "0",
+      "key": "minecraft:air",
       "symbol": "GREATER",
       "value": "400"
     },
     "00lzn_count_gravel": {
       "sheet": "scan_large_p1k",
-      "key": "13",
+      "key": "minecraft:gravel",
       "symbol": "GREATER",
       "value": "6"
     },
     "00lzn_count_roof": {
       "sheet": "scan_large",
-      "key": "53",
+      "key": "minecraft:oak_stairs",
       "symbol": "GREATER",
       "value": "60"
     },
     "00lzn_count_vitre": {
       "sheet": "scan_large",
-      "key": "102",
+      "key": "minecraft:glass_pane",
       "symbol": "GREATER",
       "value": "20"
     },
@@ -98,19 +98,19 @@
     },
     "00lzn_dongeon": {
       "sheet": "scan_large_p1k",
-      "key": "98",
+      "key": "minecraft:stonebrick",
       "symbol": "GREATER",
       "value": "20"
     },
     "00lzn_end_stone": {
       "sheet": "scan_large_p1k",
-      "key": "121",
+      "key": "minecraft:end_stone",
       "symbol": "GREATER",
       "value": "10"
     },
     "00lzn_feuille": {
       "sheet": "scan_large_p1k",
-      "key": "18",
+      "key": "minecraft:leaves",
       "symbol": "GREATER",
       "value": "15"
     },
@@ -128,31 +128,31 @@
     },
     "00lzn_ocean": {
       "sheet": "scan_large_p1k",
-      "key": "9",
+      "key": "minecraft:water",
       "symbol": "GREATER",
       "value": "100"
     },
     "00lzn_roche": {
       "sheet": "scan_small_p1k",
-      "key": "1",
+      "key": "minecraft:stone",
       "symbol": "GREATER",
       "value": "330"
     },
     "00lzn_sandstone": {
       "sheet": "scan_large_p1k",
-      "key": "24",
+      "key": "minecraft:sandstone",
       "symbol": "GREATER",
       "value": "15"
     },
     "00lzn_snow": {
       "sheet": "scan_large_p1k",
-      "key": "78",
+      "key": "minecraft:snow_layer",
       "symbol": "GREATER",
       "value": "5"
     },
     "00lzn_vigne": {
       "sheet": "scan_large_p1k",
-      "key": "106",
+      "key": "minecraft:vine",
       "symbol": "GREATER",
       "value": "15"
     },
@@ -265,19 +265,19 @@
     },
     "detect_forest": {
       "sheet": "scan_large_p1k",
-      "key": "18",
+      "key": "minecraft:leaves",
       "symbol": "GREATER",
       "value": "15"
     },
     "detect_jungle": {
       "sheet": "scan_large_p1k",
-      "key": "106",
+      "key": "minecraft:vine",
       "symbol": "GREATER",
       "value": "15"
     },
     "detect_snow": {
       "sheet": "scan_large_p1k",
-      "key": "78",
+      "key": "minecraft:snow_layer",
       "symbol": "GREATER",
       "value": "8"
     },
@@ -289,13 +289,13 @@
     },
     "player_in_Ender": {
       "sheet": "scan_large",
-      "key": "121",
+      "key": "minecraft:end_stone",
       "symbol": "GREATER",
       "value": "0"
     },
     "snow_sup_1": {
       "sheet": "scan_large_p1k",
-      "key": "78",
+      "key": "minecraft:snow_layer",
       "symbol": "GREATER",
       "value": "1"
     },
